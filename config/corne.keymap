@@ -20,10 +20,10 @@
             //                    | GUI | LWR | CTRL |   | SPACE | RSE  | ALT |
 
             bindings = <
-  &kp TAB  &kp Q  &kp W         &kp E           &kp R    &lt 3 T        &kp Y  &kp U      &kp I    &kp O     &kp P  &kp BSPC
-  &kp ESC  &kp A  &kp S         &kp D           &kp F      &kp G        &kp H  &kp J      &kp K    &kp L  &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z  &kp X         &kp C  &mt LEFT_ALT V      &kp B        &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp RET
-                         &kp LEFT_GUI           &sl 2  &kp LCTRL    &kp SPACE  &mo 1    &kp RET
+  &kp TAB  &kp Q  &kp W         &kp E           &kp R    &lt 3 T        &kp Y  &kp U          &kp I    &kp O     &kp P  &kp LEFT_BRACKET
+  &kp ESC  &kp A  &kp S         &kp D           &kp F      &kp G        &kp H  &kp J          &kp K    &kp L  &kp SEMI           &kp SQT
+&kp LSHFT  &kp Z  &kp X         &kp C  &mt LEFT_ALT V      &kp B        &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH           &kp RET
+                         &kp LEFT_GUI           &sl 2  &kp LCTRL    &kp SPACE  &mo 1  &kp BACKSPACE
             >;
         };
 
@@ -52,10 +52,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-    &none     &none   &none     &none       &none        &none    &kp CARET   &kp AMPS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp KP_MULTIPLY   &kp BSPC
-&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp UNDER  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS         &kp BSLH  &kp GRAVE
-    &none     &none   &none     &none       &none        &none    &kp MINUS   &kp PLUS              &kp LBRC               &kp RBRC         &kp PIPE  &kp TILDE
-                             &kp LGUI      &trans    &kp SPACE      &kp RET     &trans              &kp RALT
+&kp GRAVE     &none   &none     &none       &none        &none    &kp CARET   &kp AMPS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp KP_MULTIPLY  &none
+&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp UNDER  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS         &kp BSLH  &none
+    &none     &none   &none     &none       &none        &none    &kp MINUS   &kp PLUS              &kp LBRC               &kp RBRC         &kp PIPE  &none
+                               &trans      &trans       &trans       &trans     &trans                &trans
             >;
         };
 
